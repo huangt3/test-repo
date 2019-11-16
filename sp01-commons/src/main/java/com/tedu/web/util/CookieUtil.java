@@ -40,7 +40,7 @@ public class CookieUtil {
 		Cookie[] cookies = request.getCookies();
 		if (null != cookies) {
 			for (Cookie cookie : cookies) {
-				if (cookie.getName().equals(name)) { //
+				if (cookie.getName().equals(name)) { //3wertyuiop[]\
 					value = cookie.getValue();
 				}
 			}
